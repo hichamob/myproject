@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Login in</title>
+</head>
+<body>
+        <div class="box">
+           <div class="pic">
+                  <img src="login.svg">
+           </div>     
+
+                <div class="signin">  
+                       <h2>sign in</h2>
+                    <form action="authenticate.php" method="post">
+                            <i class="fas fa-user"></i>
+                            <input type="text" name="username" placeholder="Username" id="username" required>
+                            <i class="fas fa-lock"></i>
+                         <input type="password" name="password" placeholder="Password" id="password" required>
+                       <div class="action-btn">
+                        <input type="submit" value="Login" class="btn1">
+                       </div>        
+                   </form>
+                   <input type="submit" onclick="location.href='register.html'" value="registre" class="btn2"> 
+                </div>
+        </div>
+</body>   
+</html>  
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+
+    <title>Login in</title>
+</head>
+<body>
+    <section>
+        <div class="box">
+           <div class="form">
+               <h2>Login</h2>
+               <form action="authenticate.php" method="post">
+                   <div class="inputBx">
+                       <input type="text" name="username" placeholder="Username" id="username" required>
+                       <img src="image/user.png" width="20px" height="20px">
+                   </div>
+                   <div class="inputBx">
+                       <input type="password" name="password" placeholder="Password" id="password" required>
+                       <img src="image/lock.png" width="20px" height="20px">
+                   </div>
+                   <label class="remembre"><input type="checkbox">Remember Me</label>
+                   <div class="inputBx">
+                       <input type="submit" value="Login">
+                   </div>
+               </form>
+               <p>Forget <a href="email.html">Password</a></p>
+           </div>
+    
+        </div>
+    </section>
+</body>
+</html>
+ -->
