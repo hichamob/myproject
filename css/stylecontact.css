@@ -1,0 +1,144 @@
+.navtop {
+	background-color: midnightblue;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #2551d3;
+}
+
+.box{
+     
+    position: relative;
+    margin: 50px;
+    margin-left:  450px;
+    padding: 50px;
+    width: 360px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #c7cafc;
+    border-radius: 5px;
+    box-shadow: midnightblue;
+    
+}
+
+.box .from {
+    position: relative;
+    width: 100%;
+}
+
+.box .from h2{
+    text-align: center;
+    color: midnightblue;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 38px;
+
+}
+
+.box .from .inputBx{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+ 
+.box .from .inputBx input{
+    
+    width: 80%;
+    outline: none;
+    border: 1px solid rgba(156, 189, 199, 0.2);
+    background: transparent;
+    padding: 8px 6px;
+    padding-left: 35px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow:  inset 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.box .from .inputBx input::placeholder{
+    
+    color: rgb(0, 0, 0);
+}
+.box .from .message textarea{
+    
+    width: 80%;
+    outline: none;
+    border: 1px solid rgba(156, 189, 199, 0.2);
+    background: transparent;
+    padding: 8px 6px;
+    padding-left: 35px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    box-shadow:  inset 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.box .from .message textarea::placeholder{
+    
+    color: rgb(0, 0, 0);
+}
+
+.box .from .inputBx input[type ="submit"]{
+    
+    background:midnightblue;
+    color: #fff;
+    margin-top: 15px;
+    max-width: 150px;
+    padding: 8px 6px;
+    box-shadow: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
